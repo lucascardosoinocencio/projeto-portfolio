@@ -30,6 +30,15 @@ body {
   color: var(--texto);
 }
 
+body.escuro {
+  --fundo-principal: #1a1a1a;
+  --texto: #eaeaea;
+  --texto-inverso: #000;
+  --destaque: #66bbff;
+  --destaque-inverso: #0099ff;
+  --fundo-card: #2a2a2a;
+}
+
 header {
   background-color: var(--destaque);
   color: var(--texto);
@@ -225,7 +234,7 @@ article h2 {
 
 footer {
   background-color: var(--destaque);
-  color: var(--texto-inverso0);
+  color: var(--texto-inverso);
   text-align: center;
   padding: 15px;
 }
